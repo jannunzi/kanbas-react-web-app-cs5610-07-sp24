@@ -1,0 +1,124 @@
+/* #p1 {
+  background-color: green;
+}
+
+p {
+  background-color: blue;
+}
+
+p {
+  background-color: red;
+  color: white;
+} */
+
+.wd-highlight-content {
+  background-color: yellow;
+  color: blue;
+}
+
+.wd-selector-2 > .wd-selector-3 > .wd-selector-4 {
+  background-color: red;
+}
+
+.wd-fg-color-black {
+  color: black;
+}
+.wd-fg-color-white {
+  color: white;
+}
+.wd-fg-color-blue {
+  color: #7070ff;
+}
+.wd-fg-color-red {
+  color: #ff7070;
+}
+.wd-fg-color-green {
+  color: green;
+}
+.wd-bg-color-yellow {
+  background-color: #ffff07;
+}
+.wd-bg-color-blue {
+  background-color: #7070ff;
+}
+.wd-bg-color-red {
+  background-color: #ff7070;
+}
+.wd-bg-color-green {
+  background-color: green;
+}
+.wd-bg-color-beige {
+  background-color: beige;
+}
+
+.wd-box-model-example {
+  background-color: yellow;
+  margin: 56px;
+  margin-right: 70px;
+  padding: 28px;
+  padding-top: 63px;
+  border: 10px green solid;
+  border-bottom-color: red;
+  border-bottom-width: 30px;
+  border-left-width: 40px;
+  border-left-style: dotted;
+}
+
+.wd-dimension-portrait {
+  width: 75px;
+  height: 100px;
+}
+
+.wd-dimension-landscape {
+  width: 100px;
+  height: 75px;
+}
+
+.wd-dimension-square {
+  width: 75px;
+  height: 75px;
+}
+
+.wd-pos-relative-nudge-up-right {
+  position: relative;
+  bottom: 30px;
+  left: 30px;
+}
+.wd-pos-relative-nudge-down-right {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+.wd-pos-absolute-10-10 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.wd-pos-absolute-50-50 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.wd-pos-absolute-120-20 {
+  position: absolute;
+  top: 20px;
+  left: 120px;
+}
+
+.wd-pos-relative {
+  position: relative;
+}
+
+.wd-flex-row-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.wd-flex-grow-1 {
+  flex-grow: 1;
+}
+
+.wd-width-85px {
+  width: 85px;
+}
