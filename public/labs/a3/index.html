@@ -1,0 +1,19 @@
+<h1>Welcome to JavaScript</h1>
+<script>
+  document.write("<h2>Hello, World!</h2>");
+
+  const todos = [
+    { id: 1, text: "Learn JavaScript", completed: true },
+    { id: 2, text: "Seek for a job", completed: false },
+    { id: 3, text: "Start working", completed: false },
+  ];
+
+  document.write("<h3>My Todos</h3>");
+  document.write("<ul>");
+  todos.forEach((todo) => {
+    document.write(`<li>${todo.text}</li>`);
+  });
+  document.write("</ul>");
+</script>
+<h3>This is more content</h3>
+<div id="root"></div>
