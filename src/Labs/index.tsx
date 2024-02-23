@@ -6,7 +6,7 @@ import Nav from "../Nav";
 
 function Labs() {
   return (
-    <>
+    <div className="container-fluid">
       <Nav />
       <h1>Labs</h1>
       <Link to="a3">Assignment 3</Link> | <Link to="a4">Assignment 4</Link>
@@ -14,7 +14,7 @@ function Labs() {
         <Route path="a3/*" element={<Assignment3 />} />
         <Route path="a4" element={<Assignment4 />} />
       </Routes>
-    </>
+    </div>
   );
 }
 

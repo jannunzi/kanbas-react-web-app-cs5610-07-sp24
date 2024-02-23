@@ -1,9 +1,18 @@
+import React from "react";
+import ArrayStateVariable from "./a4/ArrayStateVariable";
+import ClickEvent from "./a4/ClickEvent";
+import EventObject from "./a4/EventObject";
+import ObjectStateVariable from "./a4/ObjectStateVariable";
+import StringStateVariables from "./a4/StringStateVariables";
 function Assignment4() {
   return (
     <div>
       <h2>Assignment 4</h2>
-      <h3>Redux</h3>
-      <h3>Context</h3>
+      <ArrayStateVariable />
+      <ObjectStateVariable />
+      <StringStateVariables />
+      <EventObject />
+      <ClickEvent />
     </div>
   );
 }
