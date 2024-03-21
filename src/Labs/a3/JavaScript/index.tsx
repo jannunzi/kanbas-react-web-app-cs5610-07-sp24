@@ -11,6 +11,7 @@ import House from "./json/House";
 import Spreading from "./json/Spreading";
 import Destructing from "./json/Destructing";
 import FunctionDestructing from "./functions/FunctionDestructing";
+import CounterUseState from "../../a4/ConterUseState";
 
 function JavaScript() {
   console.log("Hello World!");
@@ -18,6 +19,8 @@ function JavaScript() {
   return (
     <div>
       <h1>JavaScript</h1>
+      {/* <CounterUseState /> */}
+
       <FunctionDestructing />
       <Destructing />
       <Spreading />
